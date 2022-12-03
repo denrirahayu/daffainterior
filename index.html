@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daffa Interior Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <script>
+   
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("header").classList.remove("show");
+      } else {
+        document.getElementById("header").classList.add("show");
+      }
+      prevScrollpos = currentScrollPos;
+    };
+    //]]>
+  </script>
+  <body>
+    <div class="container">
+ <nav data-aos="fade-down" id="sticky">
+          <h1>Daffa Interior</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#servis">Service</a></li>
+            <li><a href="#porto">Portfolio</a></li>
+            <li><a href="#kontak">Contact</a></li>
+          </ul>
+        </nav>
+      <header>
+       
+        <div id="home" class="wrap home">
+          <img data-aos="fade-down" src="icon/logo.png" alt="" />
+          <h1 data-aos="zoom-in">Daffa Interior Project</h1>
+          <h4 data-aos="zoom-in" >Furniture-Workshop-Galery</h4>
+          <button data-aos="zoom-in"  type="button" > <a href="#about">Selengkapnya</a> </button>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section id="about" class="about">
+        <div class="wrap-about">
+          <div data-aos="fade-right" class="deskrip">
+            <h3>Selamat datang di</h3>
+            <h2>Daffa Interior Project</h2>
+            <p>
+              Kami adalah Tim yang berisi anak muda berkarya dengan tujuan
+              membuat produk home living yang fleksibel sesuai permintaan dan
+              kemampuan client. Bahan yang kami gunakan adalah blockmin dan
+              plywood dengan finishing HPL.
+            </p>
+          </div>
+          <img data-aos="fade-left" src="referensi/about.jpg" alt="" />
+        </div>
+      </section>
+
+      <section  class="servis">
+        <div data-aos="zoom-out" data-aos-duration="500" class="banner1">
+          <h3>KONSULTASI</h3>
+          <h4>Konsultasi tentang bahan,design dan lainnya.</h4>
+        </div>
+        <div data-aos="zoom-out" data-aos-duration="500" data-aos-delay="100" class="banner2">
+          <h3>KOSTUM FURNITURE</h3>
+          <h4>Membuat furniture sesuai keinginan client.</h4>
+        </div>
+        <div data-aos="zoom-out"data-aos-duration="500" data-aos-delay="200" class="banner3">
+          <h3>REPAIR</h3>
+          <h4>Perbaikan dan peremajaan fruniture yang sudah tidak layak.</h4>
+        </div>
+        <div data-aos="zoom-out"data-aos-duration="500" data-aos-delay=300" class="banner4">
+          <h3>AKSESORIS</h3>
+          <h4>Perlengkapan furniture dapur dll.</h4>
+        </div>
+      </section>
+
+      <section id="servis" class="offer">
+        <div class="wrappoffer">
+          <div class="juduloffer">
+            <h1>Alur Kerja</h1>
+          </div>
+          <div class="grid-menuoffer">
+            <div data-aos="flip-left" data-aos-duration="500" >
+              <div   class="paddingoffer">
+                <img src="icon/survey.png" alt="" />
+                <h3>SURVEY</h3>
+                <p>
+                  Tim kami akan datang ke tempat client untuk melakukan
+                  pengukuran dll.
+                </p>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+              <div class="paddingoffer">
+                <img src="icon/consultant.png" alt="" />
+                <h3>KONSULTASI</h3>
+                <p>
+                  Client bisa melakukan konsultasi deisgn,ukuran dan permintaan
+                  lainnya.
+                </p>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+              <div class="paddingoffer">
+                <img src="icon/design.png" alt="" />
+                <h3>DESIGN & PALNNING</h3>
+                <p>
+                  Melakukan design sesuai permintaan client untuk menjadi acuan
+                  client dan tim kami.
+                </p>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+              <div class="paddingoffer">
+                <img src="icon/production.png" alt="" />
+                <h3>PRODUKSI</h3>
+                <p>
+                  setelah semuanya fix, Tim kami akan memproduksi furniture
+                  pesanan client kami.
+                </p>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+              <div class="paddingoffer">
+                <img src="icon/truck.png" alt="" />
+                <h3>DELIVERY</h3>
+                <p>
+                  Furniture akan kami kirim kan ke tempat klient untuk di
+                  instalasi.
+                </p>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
+              <div class="paddingoffer">
+                <img src="icon/instal.png" alt="" />
+                <h3>INSTALASI</h3>
+                <p>Penginstalan dan melakukan finishing di tempat client.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="porto" class="container-portfolio">
+        <div class="judul"><h2>PORTFOLIO</h2></div>
+        <div class="galery-porto">
+          <div data-aos="flip-left" data-aos-duration="300" class="galeri1"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="100"class="galeri2"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="200"class="galeri3"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="300"class="galeri4"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="400"class="galeri5"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="500"class="galeri6"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="600" class="galeri7"></div>
+          <div  data-aos="flip-left" data-aos-duration="300" data-aos-delay="700"class="galeri8"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="800" class="galeri9"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="900" class="galeri10"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="1000"class="galeri11"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="1100"class="galeri12"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="1200"class="galeri13"></div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="1300"class="galeri14"></div>
+        </div>
+      </section>
+
+      <section class="lokasi">
+        <div class="wrap-lokasi">
+          <div data-aos="fade-down"data-aos-duration="500" class="gmaps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030074.4930164733!2d105.368116!3d-6.395386999999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6973ead3c90707%3A0xa5e70044822d185e!2sWorkshop%20Daffa%20interior%20Project!5e0!3m2!1sen!2sid!4v1669628607545!5m2!1sen!2sid"
+              width="300"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="300" data-aos-delay="400" class="deskrip-lokasi">
+            <div class="wrap-deskrip">
+              <h3>workshop</h3>
+              <h2>DAFFA INTERIOR PROJECT</h2>
+              <p>
+                Kp.Krajan Rt 001/002 desa wancimekar Kecamatan Kota
+                Baru,Karawang 41374
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kontak" class="kontak">
+        <div class="wrap-kontak">
+          <div data-aos="flip-left" data-aos-duration="300"  class="info">
+            <img src="icon/email .png" alt="" />
+            <h5>EMAIL</h5>
+            <p>aderukandi93@gmail.com</p>
+          </div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="100"class="info">
+            <img src="icon/whatsapp.png" alt="" />
+            <h5>WHATSAPP</h5>
+            <p>0858-8574-1767</p>
+          </div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="300" class="info">
+            <img src="icon/instagram.png" alt="" />
+            <h5>INSTAGRAM</h5>
+            <p>daffa_interiorproject</p>
+          </div>
+          <div data-aos="flip-left" data-aos-duration="300" data-aos-delay="500"class="info">
+            <img src="icon/youtube.png" alt="" />
+            <h5>YOUTUBE</h5>
+            <p>RUANG KAYA</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">dibuat oleh denrirahayu <span style="color: #e25555">&#9829;</span></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+
+    </script>
+    
+  </body>
+</html>
